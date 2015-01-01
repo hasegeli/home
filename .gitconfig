@@ -17,6 +17,7 @@
     tool = vimdiff
     algorithm = histogram
     context = 10
+    renames = copies
 [difftool]
     prompt = false
     trustExitCode = true
