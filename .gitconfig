@@ -1,0 +1,22 @@
+[user]
+    name = Emre Hasegeli
+    email = emre@hasegeli.com
+[core]
+    excludesfile = ~/.global.gitignore
+    ignorecase = false
+[alias]
+    ls = log --graph --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset - %C(bold blue)%an%Creset: %s %Cgreen(%cr)' --abbrev-commit --date=relative
+[branch]
+    autosetupmerge = always
+    autosetuprebase = always
+[push]
+    default = simple
+[color]
+    ui = true
+[diff]
+    tool = vimdiff
+    algorithm = histogram
+    context = 10
+[difftool]
+    prompt = false
+    trustExitCode = true
