@@ -98,6 +98,7 @@ text/csv                                            csv # RFC 4180
 text/tab-separated-values                           tsv
 text/x-setext                                       etx
 text/x-diff                                         diff patch
+text/x-python-script                                py
 
 video/dl                                            dl
 video/fli                                           fli
