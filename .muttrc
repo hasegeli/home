@@ -11,25 +11,20 @@ set send_charset = "utf-8"
 # Dates
 set date_format = "%Y-%m-%d %H:%M"
 
-# Gmail IMAP
-set imap_user = "emre@hasegeli.com"
+# Gmail
+set folder = "imaps://emre@hasegeli.com@imap.gmail.com"
+set smtp_url = "smtps://emre@hasegeli.com@smtp.gmail.com/"
 set imap_keepalive = 60
-set folder = "imaps://imap.gmail.com:993"
 set spoolfile = "+INBOX"
 set postponed = "+[Gmail]/Drafts"
 set move = no                   # Stop asking to "move read messages to mbox"!
 set copy = no                   # Do not copy sent mail.  Gmail smtp already does this.
 set delete = yes
-#set trash = "+[Gmail]/Trash"
-#set any_label = "+[Gmail]/any_label"
 
 # Local folders
 set header_cache = ~/.mutt/cache/headers
 set message_cachedir = ~/.mutt/cache/bodies
 set certificate_file = ~/.mutt/certificates
-
-# SMTP
-set smtp_url = "smtp://emre@hasegeli.com@smtp.gmail.com:587/"
 
 # Message display
 set sort = "threads"
@@ -59,37 +54,37 @@ set fast_reply
 set editor = "vim -c 'set colorcolumn=73' -c 'set spell spelllang=en'"
 
 # Colors
-color normal          white           black
-color attachment      brightyellow    black
-color hdrdefault      cyan            black
-color indicator       black           cyan
-color markers         brightred       black
-color signature       cyan            black
-color status          brightgreen     blue
-color tilde           blue            black
-color tree            red             black
-color index   green               default     ~p      # i am to/cc
-color index   cyan                default     ~P      # from me
-color index   brightyellow        default     ~N      # new
-color index   brightyellow        default     ~O      # old
-color index   magenta             default     ~F      # flagged
-color index   blue                default     ~T      # tagged
-color index   red                 default     ~D      # deleted
-color index   blue                default     ~Q      # replied
-color index   black               cyan        ~v      # collapsed thread
-color header    brightgreen   black ^From:
-color header    brightcyan    black ^To:
-color header    brightcyan    black ^Reply-To:
-color header    brightcyan    black ^Cc:
-color header    brightblue    black ^Subject:
-color quoted     magenta       default
-color quoted1    cyan          default
-color quoted2    green         default
-color quoted3    magenta       default
-color quoted4    cyan          default
-color quoted5    green         default
-color quoted6    magenta       default
-color quoted7    cyan          default
-color body       brightcyan    default "(^| )\\*[^*]+\\*( |$)"  # Bold
-color body       brightcyan    default "(^| )_[^_]+_( |$)"      # Underline
-color body       brightcyan    default "(^| )/[^/]+/( |$)"      # Italic
+color normal        white           black
+color attachment    brightyellow    black
+color hdrdefault    cyan            black
+color indicator     black           cyan
+color markers       brightred       black
+color signature     cyan            black
+color status        brightgreen     blue
+color tilde         blue            black
+color tree          red             black
+color index         green           default     ~p      # i am to/cc
+color index         cyan            default     ~P      # from me
+color index         brightyellow    default     ~N      # new
+color index         brightyellow    default     ~O      # old
+color index         magenta         default     ~F      # flagged
+color index         blue            default     ~T      # tagged
+color index         red             default     ~D      # deleted
+color index         blue            default     ~Q      # replied
+color index         black           cyan        ~v      # collapsed thread
+color header        brightgreen     black ^From:
+color header        brightcyan      black ^To:
+color header        brightcyan      black ^Reply-To:
+color header        brightcyan      black ^Cc:
+color header        brightblue      black ^Subject:
+color quoted        magenta         default
+color quoted1       cyan            default
+color quoted2       green           default
+color quoted3       magenta         default
+color quoted4       cyan            default
+color quoted5       green           default
+color quoted6       magenta         default
+color quoted7       cyan            default
+color body          brightcyan      default "(^| )\\*[^*]+\\*( |$)"  # Bold
+color body          brightcyan      default "(^| )_[^_]+_( |$)"      # Underline
+color body          brightcyan      default "(^| )/[^/]+/( |$)"      # Italic
