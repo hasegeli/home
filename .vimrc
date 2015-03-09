@@ -1,3 +1,4 @@
+execute pathogen#infect()
 syntax on
 set enc=utf-8
 set smartindent
