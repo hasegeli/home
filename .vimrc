@@ -13,9 +13,9 @@ set hlsearch
 set spell spelllang=en
 hi clear SpellBad
 hi SpellBad cterm=undercurl ctermfg=red
-autocmd BufWritePre * :%s/\s\+$//e
 
-au FileType xhtml,html,sgml,xml setlocal colorcolumn=0
+autocmd FileType c,cpp,sql,sh,py autocmd BufWritePre * :%s/\s\+$//e
+autocmd FileType xhtml,html,sgml,xml setlocal colorcolumn=0
 
 if match(getcwd(), "/postgresql") >= 0
     set noexpandtab
