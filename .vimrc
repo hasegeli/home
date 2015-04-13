@@ -14,7 +14,7 @@ set spell spelllang=en
 hi clear SpellBad
 hi SpellBad cterm=undercurl ctermfg=red
 
-autocmd FileType c,cpp,sql,sh,py autocmd BufWritePre * :%s/\s\+$//e
+autocmd FileType c,cpp,erb,sql,sh,py autocmd BufWritePre * :%s/\s\+$//e
 autocmd FileType xhtml,html,sgml,xml setlocal colorcolumn=0
 
 if match(getcwd(), "/postgresql") >= 0
