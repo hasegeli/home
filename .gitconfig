@@ -18,6 +18,8 @@
     algorithm = histogram
     context = 10
     renames = copies
+[log]
+    date = iso
 [difftool]
     prompt = false
     trustExitCode = true
