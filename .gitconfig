@@ -18,8 +18,17 @@
     algorithm = histogram
     context = 10
     renames = copies
+[diff "nodiff"]
+    command = /usr/bin/true
 [log]
     date = iso
+[merge]
+    conflictstyle = diff3
+    renormalize = true
+[rebase]
+    stat = true
+    autosquash = true
+    autostash = true
 [difftool]
     prompt = false
     trustExitCode = true
