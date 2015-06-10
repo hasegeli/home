@@ -7,9 +7,8 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="gallois"
 
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# Aliases
+alias pkgin="sudo pkgin"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
