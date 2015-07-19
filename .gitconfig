@@ -1,36 +1,36 @@
 [user]
-    name = Emre Hasegeli
-    email = emre@hasegeli.com
+	name = Emre Hasegeli
+	email = emre@hasegeli.com
 [core]
-    excludesfile = ~/.global.gitignore
-    ignorecase = false
+	excludesfile = ~/.global.gitignore
+	ignorecase = false
 [alias]
-    ls = log --graph --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset - %C(bold blue)%an%Creset: %s %Cgreen(%cr)' --abbrev-commit --date=relative
+	ls = log --graph --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset - %C(bold blue)%an%Creset: %s %Cgreen(%cr)' --abbrev-commit --date=relative
 [branch]
-    autosetupmerge = always
-    autosetuprebase = always
+	autosetupmerge = always
+	autosetuprebase = always
 [push]
-    default = simple
+	default = simple
 [color]
-    ui = true
+	ui = true
 [diff]
-    tool = vimdiff
-    algorithm = histogram
-    context = 10
-    renames = copies
+	tool = vimdiff
+	algorithm = histogram
+	context = 10
+	renames = copies
 [diff "nodiff"]
-    command = /usr/bin/true
+	command = /usr/bin/true
 [log]
-    date = iso
+	date = iso
 [merge]
-    conflictstyle = diff3
-    renormalize = true
+	conflictstyle = diff3
+	renormalize = true
 [rebase]
-    stat = true
-    autosquash = true
-    autostash = true
+	stat = true
+	autosquash = true
+	autostash = true
 [difftool]
-    prompt = false
-    trustExitCode = true
+	prompt = false
+	trustExitCode = true
 [credential]
-    helper = osxkeychain
+	helper = osxkeychain
