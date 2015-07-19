@@ -10,10 +10,11 @@ set history=100000
 set colorcolumn=80
 set hlsearch
 set spell spelllang=en
+
 hi clear SpellBad
 hi SpellBad cterm=undercurl ctermfg=red
 
-autocmd BufWritePre,BufRead *.c,*.cpp,*.erb,*.sql,*.sh,*.py :%s/\s\+$//e
+autocmd BufWritePre,BufRead *.c,*.conf,*.cpp,*.erb,*.js,*.pp,*.py,*.sh,*.sql :%s/\s\+$//e
 autocmd FileType xhtml,html,sgml,xml setlocal colorcolumn=0
 
 if match(getcwd(), "/admin") >= 0
