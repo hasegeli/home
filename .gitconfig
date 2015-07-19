@@ -35,3 +35,7 @@
 	trustExitCode = true
 [credential]
 	helper = osxkeychain
+[format]
+	pretty=cmedium
+[pretty]
+	cmedium="format:%C(auto,yellow)commit %H%C(reset)%n  from %cn <%ce>%n    at %cd%n%n%w(80,4,4)%s%n%+b"
