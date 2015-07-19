@@ -18,6 +18,7 @@
 	algorithm = histogram
 	context = 10
 	renames = copies
+	renameLimit = 100000
 [diff "nodiff"]
 	command = /usr/bin/true
 [log]
