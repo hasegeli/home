@@ -18,5 +18,10 @@ autocmd BufWritePre,BufRead *.c,*.conf,*.cpp,*.erb,*.js,*.pp,*.py,*.sh,*.sql :%s
 autocmd FileType xhtml,html,sgml,xml setlocal colorcolumn=0
 
 if match(getcwd(), "/admin") >= 0
-    set expandtab
+	set expandtab
+endif
+
+if &diff
+	syntax off
+	set nospell
 endif
