@@ -10,3 +10,6 @@
 [submodule ".oh-my-zsh"]
 	path = .oh-my-zsh
 	url = git@github.com:robbyrussell/oh-my-zsh.git
+[submodule ".vim/bundle/xml"]
+	path = .vim/bundle/xml
+	url = git@github.com:othree/xml.vim.git
