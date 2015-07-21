@@ -1,5 +1,7 @@
 execute pathogen#infect()
 syntax on
+filetype on
+
 set enc=utf-8
 set smartindent
 set tabstop=4
@@ -15,7 +17,11 @@ hi clear SpellBad
 hi SpellBad cterm=undercurl ctermfg=red
 
 autocmd BufWritePre,BufRead *.c,*.conf,*.cpp,*.erb,*.js,*.pp,*.py,*.sh,*.sql :%s/\s\+$//e
-autocmd FileType xhtml,html,sgml,xml setlocal colorcolumn=0
+
+if match(getcwd(), "/sgml") >= 0
+	set expandtab
+	set colorcolumn=100
+endif
 
 if match(getcwd(), "/admin") >= 0
 	set expandtab
