@@ -30,6 +30,9 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(vimode git github jira osx pip rsync python redis-cli svn ssh-agent)
 
+# Global variables
+export XDG_CONFIG_HOME=$HOME/.config
+
 source ~/.profile
 source $ZSH/oh-my-zsh.sh
 
