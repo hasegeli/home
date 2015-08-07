@@ -7,9 +7,6 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="gallois"
 
-# Aliases
-alias pkgin="sudo pkgin"
-
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -36,9 +33,21 @@ export XDG_CONFIG_HOME=$HOME/.config
 source ~/.profile
 source $ZSH/oh-my-zsh.sh
 
+# Aliases for sudo
+alias pkgin="sudo pkgin"
+alias apt-get="sudo apt-get"
+alias pip="sudo pip"
+alias gem="sudo gem"
+
+# Aliases for typos
+alias mkdit=mkdir
+
+# Aliases for nocorrect
 if [ -f ~/.zsh_nocorrect ]; then
     while read -r COMMAND; do
         alias $COMMAND="nocorrect $COMMAND"
     done < ~/.zsh_nocorrect
 fi
-alias mkdit=mkdir
+
+source $ZSH/oh-my-zsh.sh
+source ~/.profile
