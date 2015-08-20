@@ -13,3 +13,6 @@
 [submodule ".vim/bundle/xml"]
 	path = .vim/bundle/xml
 	url = git@github.com:othree/xml.vim.git
+[submodule ".vim/bundle/ruby"]
+	path = .vim/bundle/ruby
+	url = git@github.com:vim-ruby/vim-ruby.git
