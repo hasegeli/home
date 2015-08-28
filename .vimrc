@@ -16,7 +16,7 @@ set spell spelllang=en
 hi clear SpellBad
 hi SpellBad cterm=undercurl ctermfg=red
 
-autocmd BufWritePre,BufRead *.c,*.conf,*.cpp,*.erb,*.js,*.pp,*.py,*.sh,*.sql :%s/\s\+$//e
+autocmd BufWritePre,BufRead *.c,*.conf,*.cpp,*.erb,*.js,*.php,*.pp,*.py,*.sh,*.sql :%s/\s\+$//e
 
 if match(getcwd(), "/sgml") >= 0
 	set expandtab
