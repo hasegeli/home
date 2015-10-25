@@ -27,6 +27,10 @@ if match(getcwd(), "/adjust") >= 0
 	set expandtab
 endif
 
+if match(getcwd(), "/github") >= 0
+	set expandtab
+endif
+
 if match(getcwd(), "/admin") >= 0
 	set expandtab
 endif
