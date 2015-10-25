@@ -33,12 +33,6 @@ export XDG_CONFIG_HOME=$HOME/.config
 source ~/.profile
 source $ZSH/oh-my-zsh.sh
 
-# Aliases for sudo
-alias pkgin="sudo pkgin"
-alias apt-get="sudo apt-get"
-alias pip="sudo pip"
-alias gem="sudo gem"
-
 # Aliases for typos
 alias mkdit=mkdir
 
