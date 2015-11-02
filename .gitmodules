@@ -1,18 +1,27 @@
 [submodule ".vim/bundle/puppet"]
 	path = .vim/bundle/puppet
-	url = git://github.com/rodjek/vim-puppet.git
+	url = https://github.com/rodjek/vim-puppet.git
 [submodule ".vim/bundle/sensible"]
 	path = .vim/bundle/sensible
-	url = git://github.com/tpope/vim-sensible
+	url = https://github.com/tpope/vim-sensible
 [submodule ".vim/bundle/fugitive"]
 	path = .vim/bundle/fugitive
-	url = git://github.com/tpope/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
 [submodule ".oh-my-zsh"]
 	path = .oh-my-zsh
-	url = git@github.com:robbyrussell/oh-my-zsh.git
+	url = https://github.com/robbyrussell/oh-my-zsh.git
 [submodule ".vim/bundle/xml"]
 	path = .vim/bundle/xml
-	url = git@github.com:othree/xml.vim.git
+	url = https://github.com:/three/xml.vim.git
 [submodule ".vim/bundle/ruby"]
 	path = .vim/bundle/ruby
-	url = git@github.com:vim-ruby/vim-ruby.git
+	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule ".vim/bundle/camelcasemotion"]
+	path = .vim/bundle/camelcasemotion
+	url = https://github.com/bkad/CamelCaseMotion
+[submodule ".vim/bundle/eunuch"]
+	path = .vim/bundle/eunuch
+	url = https://github.com/tpope/vim-eunuch.git
+[submodule ".vim/bundle/solarized"]
+	path = .vim/bundle/solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
