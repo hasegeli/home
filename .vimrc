@@ -1,6 +1,9 @@
 " Initialize pathogen
 execute pathogen#infect()
 
+" Enable backwards incompatible features of vim
+set nocompatible
+
 syntax on
 filetype on
 
