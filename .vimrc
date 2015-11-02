@@ -13,7 +13,7 @@ set tabstop=4
 set shiftwidth=4
 set cinoptions=(0
 set ruler
-set history=100000
+set history=10000
 set colorcolumn=80
 set hlsearch
 set spell spelllang=en
