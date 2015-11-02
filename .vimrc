@@ -8,10 +8,14 @@ syntax on
 filetype on
 
 set enc=utf-8
+
+" Indentation
 set smartindent
 set tabstop=4
+set softtabstop=4
 set shiftwidth=4
 set cinoptions=(0
+
 set ruler
 set history=10000
 set colorcolumn=80
