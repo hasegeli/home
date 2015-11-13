@@ -42,7 +42,7 @@ hi clear SpellBad
 hi SpellBad cterm=undercurl ctermfg=red
 
 " Remove trilling whitespaces
-autocmd BufWritePre,BufRead *.c,*.conf,*.cpp,*.erb,*.js,*.php,*.pp,*.py,*.sh,*.sql :%s/\s\+$//e
+autocmd BufWritePre,BufRead *.c,*.conf,*.cpp,*.css,*.erb,*.js,*.php,*.pp,*.py,*.sh,*.sql :%s/\s\+$//e
 
 " Make enter and shift-enter insert newlines in command mode
 "
