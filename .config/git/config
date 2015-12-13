@@ -3,6 +3,7 @@
 	email = emre@hasegeli.com
 [core]
 	ignorecase = false
+	pager = less -Rx4
 [alias]
 	ls = log --graph --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset - %C(bold blue)%an%Creset: %s %Cgreen(%cr)' --abbrev-commit --date=relative
 [branch]
