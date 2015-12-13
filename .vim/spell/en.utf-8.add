@@ -19,6 +19,10 @@ GmbH
 Grepo
 Gzip
 Hasegeli
+IMAP4
+IPv6
+ISC
+Init
 InnoGames
 JDK
 JSON
@@ -40,6 +44,7 @@ Nagios
 Netscaler
 Nginx
 ORM
+OSs
 OpenBSD
 OpenLDAP
 OrderedDict
@@ -49,6 +54,7 @@ PoC
 PostgreSQL
 Psycopg2
 README
+RESTful
 Redis
 RestrictInfo
 RestrictInfos
@@ -61,11 +67,13 @@ Slapd
 Solr
 Statsd
 Symlink
+Systemd
 URL's
 UTC
 UTF
 Ubuntu
 VMWare
+VMs
 Xen
 ZooKeeper
 admin
@@ -89,6 +97,7 @@ contrib
 create
 cron
 crons
+crontab
 css
 currval
 datacenter
@@ -104,6 +113,7 @@ edu
 enum
 enums
 erb
+etc
 fallback
 fastcgi
 fetchall
@@ -136,8 +146,12 @@ inode
 istore
 istores
 join's
+json
 keepalive
+libpg
 localhost
+logfile
+logfiles
 logrotate
 masklen
 masklens
@@ -160,6 +174,7 @@ param
 params
 pgsql
 php
+pkey
 plpgsql
 plugin
 plugins
@@ -218,6 +233,7 @@ upd
 url
 usermod
 username
+uwsgi
 varchar
 varlena
 vimdiff
