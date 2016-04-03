@@ -38,4 +38,4 @@
 [format]
 	pretty=cmedium
 [pretty]
-	cmedium="format:%C(auto,yellow)commit %H%C(reset)%n  from %cn <%ce>%n    at %cd%n%n%w(80,4,4)%s%n%+b"
+	cmedium="format:%C(auto,yellow)commit %H%C(reset)%nauthor %an <%ae>%n  from %cn <%ce>%n    at %cd%n%n%w(80,4,4)%s%n%+b"
