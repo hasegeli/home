@@ -59,6 +59,10 @@ set statusline+=%*
 " Remove trilling whitespaces
 autocmd BufWritePre,BufRead *.c,*.conf,*.cpp,*.css,*.erb,*.js,*.json,*.php,*.pp,*.py,*.sh,*.sql :%s/\s\+$//e
 
+" Markdown plugin
+let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_fenced_languages = ['viml=vim', 'bash=sh', 'pgsql=sql']
+
 " Make enter and shift-enter insert newlines in command mode
 "
 " We need to make sure enter works in history mode:
