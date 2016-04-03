@@ -45,6 +45,17 @@ let g:pgsql_pl = ['python', 'perl', 'tcl']
 hi clear SpellBad
 hi SpellBad cterm=undercurl ctermfg=red
 
+" Syntax checking with the syntastic plugin
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+" The status line for the syntastic plugin
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
 " Remove trilling whitespaces
 autocmd BufWritePre,BufRead *.c,*.conf,*.cpp,*.css,*.erb,*.js,*.json,*.php,*.pp,*.py,*.sh,*.sql :%s/\s\+$//e
 
