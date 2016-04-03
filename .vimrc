@@ -37,6 +37,10 @@ sunmap w
 sunmap b
 sunmap e
 
+" Enable pgsql extension
+let g:sql_type_default = 'pgsql'
+let g:pgsql_pl = ['python', 'perl', 'tcl']
+
 " Spell checking
 hi clear SpellBad
 hi SpellBad cterm=undercurl ctermfg=red
