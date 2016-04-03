@@ -25,7 +25,7 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(vimode git github jira osx pip rsync python redis-cli svn ssh-agent)
+plugins=(vimode fabric git github jira osx pip rsync python redis-cli svn ssh-agent)
 
 # Global variables
 export XDG_CONFIG_HOME=$HOME/.config
