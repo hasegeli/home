@@ -59,6 +59,9 @@ set statusline+=%*
 " Remove trilling whitespaces
 autocmd BufWritePre,BufRead *.c,*.conf,*.cpp,*.css,*.erb,*.js,*.json,*.php,*.pp,*.py,*.sh,*.sql :%s/\s\+$//e
 
+" Re-formatting
+au FileType sql setl formatprg=$HOME/.vim/bin/pgformatter/pg_format\ -
+
 " Markdown plugin
 let g:vim_markdown_folding_disabled = 1
 let g:vim_markdown_fenced_languages = ['viml=vim', 'bash=sh', 'pgsql=sql']
