@@ -83,20 +83,14 @@ if has('persistent_undo')
 	set undoreload=10000
 endif
 
-if match(getcwd(), "/sgml") >= 0
-	set expandtab
+if match(getcwd(), '/sgml') >= 0
 	set colorcolumn=100
 endif
 
-if match(getcwd(), "/adjust") >= 0
-	set expandtab
-endif
-
-if match(getcwd(), "/github") >= 0
-	set expandtab
-endif
-
-if match(getcwd(), "/admin") >= 0
+" Domains which tabs are not allowed
+if match(getcwd(), '/tart') >= 0
+	\ || match(getcwd(), '/innogames') >= 0
+	\ || match(getcwd(), '/adjust') >= 0
 	set expandtab
 endif
 
