@@ -75,6 +75,14 @@ let g:vim_markdown_fenced_languages = ['viml=vim', 'bash=sh', 'pgsql=sql']
 autocmd CmdwinEnter * nnoremap <CR> <CR>
 autocmd BufReadPost quickfix nnoremap <CR> <CR>
 
+" Keep undo history across sessions
+if has('persistent_undo')
+	let &undodir = expand('$HOME/.vim/undodir')
+	set undofile
+	set undolevels=2000
+	set undoreload=10000
+endif
+
 if match(getcwd(), "/sgml") >= 0
 	set expandtab
 	set colorcolumn=100
