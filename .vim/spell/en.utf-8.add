@@ -50,6 +50,7 @@ Nagios
 Netscaler
 Newsyslog
 Nginx
+OR'ed
 ORM
 OSs
 OpenBSD
@@ -77,6 +78,7 @@ Schrader
 Serenus
 ShareLock
 Slapd
+Solaris
 Solr
 Statsd
 Symlink
@@ -90,6 +92,7 @@ VM
 VMWare
 VMs
 VirtualBox
+Wieck
 Xen
 ZooKeeper
 acl
@@ -97,6 +100,7 @@ acls
 admin
 admintool
 agg
+api
 approch
 auth
 autocommit
@@ -139,11 +143,14 @@ enum
 enums
 erb
 etc
+failover
 fallback
 fastcgi
 fetchall
 filesystem
 fk
+float4
+freebsd
 frontend
 fsync
 fsyncs
@@ -173,7 +180,11 @@ ighelper
 igpostgres
 igsoftware
 inet
+ini
+init
+initdb
 inline
+inlined
 inode
 istore
 istores
@@ -182,6 +193,7 @@ json
 keepalive
 libpg
 linux
+loadbalancer
 localhost
 logfile
 logfiles
@@ -207,8 +219,11 @@ oid
 opclass
 opclasses
 org
+os
+overwritable
 param
 params
+pessimizes
 pgsql
 php
 pkey
@@ -219,6 +234,8 @@ png
 pooler
 postgres
 postgresql
+precompute
+preload
 proxied
 prunable
 psql
@@ -232,6 +249,7 @@ regclass
 regexp
 reindexing
 relname
+repmgr
 reusability
 rrdd
 san
@@ -239,6 +257,7 @@ serializable
 serveradmin
 servermonitor
 servertype
+servertypes
 setof
 sharding
 smallint
@@ -253,6 +272,7 @@ subdomains
 sublicense
 sudo
 symlink
+syntastic
 sysadmin
 sysctl
 syslog
@@ -290,6 +310,7 @@ webserver
 webservers
 websocket
 whitelist
+whitespace
 whitespaces
 wiki
 wikipedia
@@ -298,7 +319,5 @@ www
 xact
 xen
 xml
+xor
 İstanbul
-precompute
-Solaris
-float4
