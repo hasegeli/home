@@ -28,7 +28,7 @@
 	renormalize = true
 [rebase]
 	stat = true
-	autosquash = true
+	autoSquash = true
 	autostash = true
 [difftool]
 	prompt = false
