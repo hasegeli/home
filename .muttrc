@@ -88,3 +88,4 @@ color quoted7       cyan            default
 color body          brightcyan      default "(^| )\\*[^*]+\\*( |$)"  # Bold
 color body          brightcyan      default "(^| )_[^_]+_( |$)"      # Underline
 color body          brightcyan      default "(^| )/[^/]+/( |$)"      # Italic
+alias pgsql-hackers PostgreSQL Hackers <pgsql-hackers@postgresql.org>
