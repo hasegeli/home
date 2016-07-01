@@ -1,2 +1,3 @@
 .*
-src/test/regress/regression.*
+**/test/regression.*
+**/regress/regression.*
