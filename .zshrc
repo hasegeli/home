@@ -30,9 +30,6 @@ plugins=(vimode fabric git github jira osx pip rsync python redis-cli svn ssh-ag
 # Global variables
 export XDG_CONFIG_HOME=$HOME/.config
 
-source ~/.profile
-source $ZSH/oh-my-zsh.sh
-
 # Aliases for typos
 alias mkdit=mkdir
 
@@ -42,6 +39,8 @@ if [ -f ~/.zsh_nocorrect ]; then
         alias $COMMAND="nocorrect $COMMAND"
     done < ~/.zsh_nocorrect
 fi
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 source $ZSH/oh-my-zsh.sh
 source ~/.profile
