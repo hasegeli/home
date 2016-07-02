@@ -16,7 +16,7 @@ DISABLE_AUTO_UPDATE="true"
 # Uncomment following line if you want to disable colors in ls
 # DISABLE_LS_COLORS="true"
 
-# Uncomment following line if you want to disable autosetting terminal title.
+# Uncomment following line if you want to disable auto-setting terminal title.
 DISABLE_AUTO_TITLE="true"
 
 # Uncomment following line if you want red dots to be displayed while waiting for completion
@@ -27,20 +27,21 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(vimode fabric git github jira osx pip rsync python redis-cli svn ssh-agent)
 
-# Global variables
-export XDG_CONFIG_HOME=$HOME/.config
+test -e $ZSH/oh-my-zsh.sh && source $ZSH/oh-my-zsh.sh
+test -e $HOME/.iterm2_shell_integration.zsh && source $HOME/.iterm2_shell_integration.zsh
+test -e $HOME/.profile && source $HOME/.profile
 
-# Aliases for typos
-alias mkdit=mkdir
-
-# Aliases for nocorrect
+# Aliases for no-correct
 if [ -f ~/.zsh_nocorrect ]; then
     while read -r COMMAND; do
         alias $COMMAND="nocorrect $COMMAND"
     done < ~/.zsh_nocorrect
 fi
 
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+PROMPT='%{$fg[cyan]%}%~% %B$%b '
 
-source $ZSH/oh-my-zsh.sh
-source ~/.profile
+# Global variables
+export XDG_CONFIG_HOME=$HOME/.config
+
+# Aliases for typos
+alias mkdit=mkdir
