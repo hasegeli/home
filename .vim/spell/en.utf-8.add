@@ -59,6 +59,7 @@ OpenSSH
 OrderedDict
 PHP
 Percona
+PgBouncer
 PoC
 PostGIS
 PostgreSQL
@@ -114,6 +115,7 @@ blog
 brin
 btree
 c
+casted
 cfg
 cidr
 cmp
@@ -138,6 +140,7 @@ defragmenting
 desc
 django
 dmarc
+downtiming
 edu
 enum
 enums
@@ -213,6 +216,7 @@ netcat
 netmask
 nextval
 nginx
+nonblocking
 nullable
 numbackends
 oid
@@ -253,6 +257,7 @@ repmgr
 reusability
 rrdd
 san
+selectivities
 serializable
 serveradmin
 servermonitor
@@ -265,6 +270,7 @@ sql
 src
 standart
 stderr
+stdout
 str
 struct
 subdomain
