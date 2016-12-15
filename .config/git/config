@@ -9,6 +9,8 @@
 [branch]
 	autosetupmerge = always
 	autosetuprebase = always
+[fetch]
+	prune = true
 [push]
 	default = simple
 [color]
