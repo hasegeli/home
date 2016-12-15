@@ -20,7 +20,7 @@
 	algorithm = histogram
 	context = 10
 	renames = copies
-	renameLimit = 100000
+	renamelimit = 100000
 [diff "nodiff"]
 	command = /usr/bin/true
 [log]
@@ -30,11 +30,11 @@
 	renormalize = true
 [rebase]
 	stat = true
-	autoSquash = true
+	autosquash = true
 	autostash = true
 [difftool]
 	prompt = false
-	trustExitCode = true
+	trustexitcode = true
 [credential]
 	helper = osxkeychain
 [format]
