@@ -20,9 +20,11 @@ FreeBSD
 GiB
 GiST
 GitHub
+GlusterFS
 GmbH
 Grepo
 Gzip
+Hardcode
 Hasegeli
 IMAP4
 IPv6
@@ -68,6 +70,8 @@ PuppetDB
 README
 RESTful
 RHEL
+RabbitMQ
+Recurse
 Redis
 RestrictInfo
 RestrictInfos
@@ -79,6 +83,7 @@ Schrader
 Serenus
 ShareLock
 Slapd
+Smokeping
 Solaris
 Solr
 Statsd
@@ -93,12 +98,15 @@ VM
 VMWare
 VMs
 VirtualBox
+WAL
 Wieck
 Xen
+YAML
 ZooKeeper
 acl
 acls
 admin
+adminapi
 admintool
 agg
 api
@@ -124,6 +132,7 @@ confd
 config
 contrib
 create
+criticals
 cron
 crons
 crontab
@@ -159,6 +168,7 @@ fsync
 fsyncs
 gentime
 gettext
+gitignore
 hacky
 hadoop
 hardcoded
@@ -189,6 +199,7 @@ initdb
 inline
 inlined
 inode
+iprange
 istore
 istores
 join's
@@ -220,6 +231,7 @@ nonblocking
 nullable
 numbackends
 oid
+opcache
 opclass
 opclasses
 org
@@ -227,6 +239,7 @@ os
 overwritable
 param
 params
+passwd
 pessimizes
 pgsql
 php
@@ -261,6 +274,7 @@ selectivities
 serializable
 serveradmin
 servermonitor
+servershell
 servertype
 servertypes
 setof
@@ -285,13 +299,16 @@ syslog
 tablespace
 tablespaces
 testadmin
+timestamp
 timestamptz
 tmp
 tortious
+traceback
 trigg
 tstzrange
 tup
 txt
+tz
 uWSGI
 uk
 uncacheable
