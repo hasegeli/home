@@ -14,12 +14,14 @@ EquivalenceClass
 EquivalenceClasses
 Exim
 FPM
+FQDN
 Fastly
 Firewalling
 FreeBSD
 GiB
 GiST
 GitHub
+GitLab
 GlusterFS
 GmbH
 Grepo
@@ -27,6 +29,7 @@ Gzip
 Hardcode
 Hasegeli
 IMAP4
+IPv4
 IPv6
 ISC
 Init
@@ -40,6 +43,7 @@ Logrotate
 MCV
 Meik
 Memcached
+Metapackage
 MikroTik
 Minmax
 MongoDB
@@ -94,6 +98,7 @@ URL's
 UTC
 UTF
 Ubuntu
+Undefining
 VM
 VMWare
 VMs
@@ -113,8 +118,10 @@ api
 approch
 auth
 autocommit
+autoloading
 autovacuum
 b
+backdoors
 backend
 backends
 beanstalkd
@@ -154,6 +161,7 @@ edu
 enum
 enums
 erb
+erroring
 etc
 failover
 fallback
@@ -223,12 +231,14 @@ mysql
 n
 nagios
 namespace
+namespaces
 netcat
 netmask
 nextval
 nginx
 nonblocking
 nullable
+numa
 numbackends
 oid
 opcache
@@ -253,6 +263,7 @@ postgres
 postgresql
 precompute
 preload
+preseeding
 proxied
 prunable
 psql
@@ -287,6 +298,7 @@ stderr
 stdout
 str
 struct
+subclassed
 subdomain
 subdomains
 sublicense
@@ -313,6 +325,7 @@ uWSGI
 uk
 uncacheable
 undef
+undefine
 unicode
 uninstall
 unix
@@ -328,7 +341,9 @@ usernames
 uwsgi
 varchar
 varlena
+vcpu
 vimdiff
+vserver
 webserver
 webservers
 websocket
