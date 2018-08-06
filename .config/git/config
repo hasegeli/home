@@ -39,3 +39,5 @@
 	helper = osxkeychain
 [format]
 	pretty = fuller
+[rerere]
+	enabled = true
