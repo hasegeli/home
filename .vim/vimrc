@@ -93,6 +93,7 @@ endif
 if match(getcwd(), '/tart') >= 0
 	\ || match(getcwd(), '/innogames') >= 0
 	\ || match(getcwd(), '/adjust') >= 0
+	\ || match(getcwd(), '/smarkets') >= 0
 	set expandtab
 endif
 
