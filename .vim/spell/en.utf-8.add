@@ -45,6 +45,7 @@ JDK
 JSON
 Jürgen
 KVM
+Kubernetes
 LDAP
 Logrotate
 MCV
@@ -96,6 +97,7 @@ Schrader
 Serenus
 ShareLock
 Slapd
+Smarkets
 Smokeping
 Solaris
 Solr
@@ -148,6 +150,7 @@ brin
 btree
 c
 casted
+casted
 cfg
 cidr
 cmp
@@ -172,6 +175,8 @@ db
 defragment
 defragmenting
 desc
+deserialization
+deserializing
 django
 dmarc
 downtimed
@@ -236,6 +241,7 @@ istores
 iterable
 join's
 json
+k8s
 keepalive
 libpg
 linux
@@ -244,6 +250,7 @@ localhost
 logfile
 logfiles
 logrotate
+macOS
 masklen
 masklens
 maxmemory
@@ -341,6 +348,7 @@ syntastic
 sysadmin
 sysctl
 syslog
+systemd
 tablespace
 tablespaces
 timestamp
@@ -363,6 +371,7 @@ unicode
 uninstall
 unmergeable
 unpairable
+unprocessable
 unsubscribe
 unsubscribed
 upd
