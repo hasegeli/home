@@ -41,7 +41,3 @@
 	pretty = fuller
 [rerere]
 	enabled = true
-[includeIf "gitdir:smarkets/"]
-	path = config-smarkets
-[includeIf "gitdir:smarkets-gitlab/"]
-	path = config-smarkets
