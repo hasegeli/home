@@ -4,6 +4,7 @@
 [core]
 	ignorecase = false
 	pager = less -Rx4
+	sshCommand = ssh -i ~/.ssh/personal.id_ed25519
 [alias]
 	ls = log --graph --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset - %C(bold blue)%an%Creset: %s %Cgreen(%cr)' --abbrev-commit --date=relative
 [branch]
@@ -41,3 +42,5 @@
 	pretty = fuller
 [rerere]
 	enabled = true
+[includeIf "gitdir:endpoint/"]
+	path = config-endpoint
