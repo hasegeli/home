@@ -94,7 +94,13 @@ if match(getcwd(), '/tart') >= 0
 	\ || match(getcwd(), '/innogames') >= 0
 	\ || match(getcwd(), '/adjust') >= 0
 	\ || match(getcwd(), '/smarkets') >= 0
+	\ || match(getcwd(), '/socketkit') >= 0
 	set expandtab
+endif
+if match(getcwd(), '/socketkit') >= 0
+	set tabstop=2
+	set softtabstop=2
+	set shiftwidth=2
 endif
 
 " Overrides for vimdiff
