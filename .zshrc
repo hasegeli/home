@@ -56,10 +56,10 @@ fi
 
 PROMPT='%{$fg[cyan]%}%~% %B$%b '
 
-LESS="XR"
-
 # Global variables
 export XDG_CONFIG_HOME=$HOME/.config
+export EDITOR=vim
+export LESS=XR
 
 # Aliases for typos
 alias mkdit=mkdir
