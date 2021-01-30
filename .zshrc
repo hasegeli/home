@@ -27,7 +27,21 @@ SAVEHIST=1000000
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(fabric git github jira osx paver pip python redis-cli rsync ssh-agent svn vimode)
+plugins=(
+    fabric
+    git
+    github
+    jira
+    osx
+    paver
+    pip
+    python
+    redis-cli
+    rsync
+    ssh-agent
+    svn
+    vimode
+)
 
 test -e $ZSH/oh-my-zsh.sh && source $ZSH/oh-my-zsh.sh
 test -e $HOME/.iterm2_shell_integration.zsh && source $HOME/.iterm2_shell_integration.zsh
