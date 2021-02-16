@@ -90,10 +90,8 @@ if match(getcwd(), '/sgml') >= 0
 endif
 
 " Domains which tabs are not allowed
-if match(getcwd(), '/tart') >= 0
+if match(getcwd(), '/endpoint') >= 0
 	\ || match(getcwd(), '/innogames') >= 0
-	\ || match(getcwd(), '/adjust') >= 0
-	\ || match(getcwd(), '/smarkets') >= 0
 	\ || match(getcwd(), '/socketkit') >= 0
 	set expandtab
 endif
