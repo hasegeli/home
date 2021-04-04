@@ -271,6 +271,7 @@ netmask
 nextval
 nginx
 nonblocking
+nonexisting
 nullable
 numa
 numbackends
