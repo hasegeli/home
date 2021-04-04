@@ -54,4 +54,4 @@
 	url = https://github.com/beautify-web/js-beautify
 [submodule ".vim/bundle/nix"]
 	path = .vim/bundle/nix
-	url = git@github.com:LnL7/vim-nix.git
+	url = https://github.com/LnL7/vim-nix.git
