@@ -41,5 +41,3 @@
 	pretty = fuller
 [rerere]
 	enabled = true
-[includeIf "gitdir:endpoint/"]
-	path = config-endpoint

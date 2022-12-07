@@ -1,4 +1,0 @@
-[user]
-	email = hasegeli@endpoint.com
-[core]
-	sshCommand = ssh -i ~/.ssh/endpoint.id_rsa
