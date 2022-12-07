@@ -56,7 +56,7 @@ set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
 " Remove trilling whitespaces
-autocmd BufWritePre,BufRead *.c,*.conf,*.cpp,*.css,*.erb,*.js,*.json,*.md,*.nix,*.php,*.pp,*.proto,*.py,*.rst,*.sh,*.sql,*.yaml :%s/\s\+$//e
+autocmd BufWritePre,BufRead *.c,*.conf,*.cpp,*.css,*.erb,*.java,*.js,*.json,*.md,*.nix,*.php,*.pp,*.proto,*.py,*.rst,*.sh,*.sql,*.yaml :%s/\s\+$//e
 
 " Re-formatting
 au FileType sql setl formatprg=$HOME/.vim/bin/pgformatter/pg_format\ -
