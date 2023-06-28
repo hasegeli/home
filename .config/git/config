@@ -40,5 +40,5 @@
 	pretty = fuller
 [rerere]
 	enabled = true
-[includeIf "gitdir:fivetran/"]
+[includeIf "hasconfig:remote.*.url:**fivetran/**"]
 	path = config-fivetran
