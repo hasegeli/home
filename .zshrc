@@ -59,6 +59,7 @@ PROMPT='%{$fg[cyan]%}%~% %B$%b '
 # Global variables
 export XDG_CONFIG_HOME=$HOME/.config
 export EDITOR=vim
+export PAGER=less
 export LESS=XR
 
 # Aliases for typos
