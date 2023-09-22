@@ -45,7 +45,6 @@ plugins=(
 
 test -e $ZSH/oh-my-zsh.sh && source $ZSH/oh-my-zsh.sh
 test -e $HOME/.iterm2_shell_integration.zsh && source $HOME/.iterm2_shell_integration.zsh
-test -e $HOME/.profile && source $HOME/.profile
 
 # Aliases for no-correct
 if [ -f ~/.zsh_nocorrect ]; then
@@ -56,11 +55,14 @@ fi
 
 PROMPT='%{$fg[cyan]%}%~% %B$%b '
 
-# Global variables
-export XDG_CONFIG_HOME=$HOME/.config
+# User specific global variables
 export EDITOR=vim
 export PAGER=less
 export LESS=XR
+export XDG_CONFIG_HOME=$HOME/.config
 
 # Aliases for typos
 alias mkdit=mkdir
+
+# System specific profile
+test -e $HOME/.profile && source $HOME/.profile
